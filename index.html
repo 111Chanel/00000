@@ -3,17 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"   content="windh=device-width,initial-scale11,maximu-scale=1,user-scalab=0,viewport-fit=cover">
-    </title>LIFF - line Front-end Framework</title>
+    <script src="https://static.line-scdn.net/liff/edge/versions/2.16.0/sdk.js"></script>
 </head>
 <body>
-    <script src="html://static.line-scnd.net/liff/enge/versions/2.5.0/sdk.js"></script>
+    
     <script>
         async function main() {
             await liff.init({ liffId: "1656564964-mO2y16p4" }) 
             await liff.shareTargetPicker ([
                 {
                     type: "flex",
-                    altText: "Flex Message from share Target Picker",
+                    altText: "แชร์รับเครดิตเพิ่ม 50%",
                     contents: 
                     {
                         "type": "bubble",
@@ -31,7 +31,7 @@
                             "action": {
                             "type": "uri",
                             "label": "Line",
-                            "uri": "https://linecorp.com/"
+                            "uri": "https://line.me/R/ti/p/@361pfaaa"
                             },
                             "position": "relative"
                         },
@@ -84,7 +84,7 @@
                                     "type": "button",
                                     "action": {
                                     "type": "uri",
-                                    "label": "ติดต่อได้ที่",
+                                    "label": "ติดต่อแอดมิน",
                                     "uri": "https://line.me/R/ti/p/@361pfaaa"
                                     },
                                     "color": "#FF0000FF",
@@ -114,12 +114,12 @@
                                     "type": "button",
                                     "action": {
                                     "type": "uri",
-                                    "label": "แชร์เลย",
-                                    "uri": "https://social-plugins.line.me/lineit/share?url=https://liff.line.me/1656564964-mO2y16p4"
+                                    "label": "แชร์รับเครดิตฟรี",
+                                    "uri": "https://liff.line.me/1656564964-mO2y16p4"
                                     },
                                     "color": "#FF0000FF",
                                     "style": "primary",
-                                    "height": "sm"
+                                    "height": "md"
                                 }
                                 ]
                             }
